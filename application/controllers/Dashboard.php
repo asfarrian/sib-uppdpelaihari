@@ -57,7 +57,7 @@
 			$data['dashboard']=$this->dashboard_model->lihat_dashboard_by_status('Unit Pelayanan Pendapatan Daerah Pelaihari');
 			$this->load->library('pdf');
 			$this->pdf->setPaper('Folio', 'landscape');
-			$this->pdf->filename = "laporan-kir.pdf";
+			$this->pdf->filename = "laporan-KIB.pdf";
 			$this->pdf->load_view('dashboard/laporan_pdf', $data);
 		}
 
