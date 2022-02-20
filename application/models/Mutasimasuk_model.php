@@ -73,10 +73,10 @@ class Mutasimasuk_model extends CI_Model
 
     //Tambah Data Mutasi Barang Masuk ke Dalam Kantor UPPD Pelaihari
     public function insert_data(){
-        $this->db->select('RIGHT(tb_mutasimasuk.id_barang,5) as id_barang', FALSE);
+        $this->db->select('RIGHT(tb_inventaris.id_barang,5) as id_barang', FALSE);
         $this->db->order_by('id_barang','DESC');    
         $this->db->limit(1);    
-        $query = $this->db->get('tb_mutasimasuk');
+        $query = $this->db->get('tb_inventaris');
             if($query->num_rows() <> 0){      
                  $data = $query->row();
                  $kode = intval($data->id_barang) + 1; 

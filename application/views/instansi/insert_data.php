@@ -26,7 +26,8 @@
 								<input type="text" autocomplete="off" name="nama" class="form-control" required>
 							</div>
 							<div class="form-group">
-								<button type="submit" name="simpan" class="btn btn-primary" ><i class="fas fa-save"></i> Simpan
+								<button type="submit" name="simpan" class="btn btn-primary" 
+								onclick="return alert('Data Berhasil Di Simpan')"><i class="fas fa-save"></i> Simpan
 								</button>
 							</div>
 						</form>

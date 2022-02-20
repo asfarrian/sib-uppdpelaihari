@@ -46,7 +46,7 @@
 								<input type="text" autocomplete="off" name="bahan" class="form-control" value="<?php echo $dashboard['bahan']?>">
 							</div>
 							<div class="form-group">
-								<label for="nama">Tahun</label>
+								<label for="nama">Tahun Pembelian</label>
 								<input type="text" autocomplete="off" name="tahun_pembelian" class="form-control" value="<?php echo $dashboard['tahun_pembelian']?>">
 							</div>
 							<div class="form-group">
@@ -82,7 +82,8 @@
 								</select>
 							</div>
 							<div class="form-group">
-								<button type="submit" name="ubah" class="btn btn-primary" ><i class="fas fa-save"></i> Simpan
+								<button type="submit" name="ubah" class="btn btn-primary" 
+								onclick="return alert('Data Berhasil Di Ubah')"><i class="fas fa-save"></i> Simpan
 								</button>
 							</div>
 						</form>

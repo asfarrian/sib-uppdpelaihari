@@ -75,7 +75,8 @@
 								</select>
 							</div>
 							<div class="form-group">
-								<button type="submit" name="ubah" class="btn btn-primary" ><i class="fas fa-save"></i> Simpan
+								<button type="submit" name="ubah" class="btn btn-primary" 
+								onclick="return alert('Data Berhasil Di Ubah')"><i class="fas fa-save"></i> Simpan
 								</button>
 							</div>
 						</form>

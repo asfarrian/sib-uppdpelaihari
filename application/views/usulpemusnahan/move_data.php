@@ -73,7 +73,8 @@
 							    </select>
 							</div>
 							<div class="form-group">
-								<button type="submit" name="simpan" class="btn btn-primary" ><i class="fas fa-save"></i> Simpan
+								<button type="submit" name="edit" class="btn btn-primary" 
+								onclick="return alert('Data Berhasil Di Simpan')"><i class="fas fa-save"></i> Simpan
 								</button>
 							</div>
 						</form>

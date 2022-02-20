@@ -63,7 +63,8 @@
 								</select>
 							</div>
 							<div class="form-group">
-							<button type="submit" name="ubah" class="btn btn-primary" ><i class="fas fa-save"></i> Simpan
+							<button type="submit" name="ubah" class="btn btn-primary" ><i class="fas fa-save"
+							onclick="return alert('Data Berhasil Di Ubah')"></i> Simpan
 								</button>
 							</div>
 						</form>
